@@ -1,5 +1,5 @@
 language: objective-c
 osx_image: xcode10.1
-xcode_project: CIServiceBenchmark.xcworkspace
+xcode_workspace: CIServiceBenchmark.xcworkspace
 xcode_scheme: CIServiceBenchmark
 xcode_destination: platform=iOS Simulator,OS=12.0,name=iPhone XR
