@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16977DEA2248FD8800F16BED /* AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16977DE72248FD8800F16BED /* AppTests.swift */; };
 		16D8D367223FF57F009C219C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D8D366223FF57F009C219C /* AppDelegate.swift */; };
 		16D8D369223FF57F009C219C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D8D368223FF57F009C219C /* ViewController.swift */; };
 		16D8D36C223FF57F009C219C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D8D36A223FF57F009C219C /* Main.storyboard */; };
 		16D8D36E223FF580009C219C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16D8D36D223FF580009C219C /* Assets.xcassets */; };
 		16D8D371223FF580009C219C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16D8D36F223FF580009C219C /* LaunchScreen.storyboard */; };
-		414FFA6ACEB7C47EF43E1676 /* Pods_CIServiceBenchmark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A06BB58F224B04FC415F4AB /* Pods_CIServiceBenchmark.framework */; };
+		650DEB7BDC3B3DCDDCC4458B /* Pods_CIServiceBenchmark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9781FF24D42CF9CC62A48171 /* Pods_CIServiceBenchmark.framework */; };
+		EACE7D0018124FF50D61348F /* Pods_CIServiceBenchmarkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B450A31A71561F37CC81724 /* Pods_CIServiceBenchmarkTests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		167D196C2248FCB4004130C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16D8D35B223FF57F009C219C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16D8D362223FF57F009C219C;
+			remoteInfo = CIServiceBenchmark;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		09D222C69550D49538F208DF /* Pods-CIServiceBenchmark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIServiceBenchmark.debug.xcconfig"; path = "Target Support Files/Pods-CIServiceBenchmark/Pods-CIServiceBenchmark.debug.xcconfig"; sourceTree = "<group>"; };
+		167D19672248FCB4004130C2 /* CIServiceBenchmarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIServiceBenchmarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16977DE72248FD8800F16BED /* AppTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTests.swift; sourceTree = "<group>"; };
+		16977DE92248FD8800F16BED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16D8D363223FF57F009C219C /* CIServiceBenchmark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIServiceBenchmark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16D8D366223FF57F009C219C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16D8D368223FF57F009C219C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,30 +39,66 @@
 		16D8D36D223FF580009C219C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16D8D370223FF580009C219C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16D8D372223FF580009C219C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		610739EE5425C6BDCD3CDB3E /* Pods-CIServiceBenchmark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIServiceBenchmark.release.xcconfig"; path = "Target Support Files/Pods-CIServiceBenchmark/Pods-CIServiceBenchmark.release.xcconfig"; sourceTree = "<group>"; };
-		9A06BB58F224B04FC415F4AB /* Pods_CIServiceBenchmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CIServiceBenchmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8971D4CAE0B159013E0BD82 /* Pods-CIServiceBenchmark.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIServiceBenchmark.debug.xcconfig"; path = "Target Support Files/Pods-CIServiceBenchmark/Pods-CIServiceBenchmark.debug.xcconfig"; sourceTree = "<group>"; };
+		5EF370571FAB8D74455F64D4 /* Pods-CIServiceBenchmarkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIServiceBenchmarkTests.debug.xcconfig"; path = "Target Support Files/Pods-CIServiceBenchmarkTests/Pods-CIServiceBenchmarkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61DE4FA1AB72298E60618A0F /* Pods-CIServiceBenchmarkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIServiceBenchmarkTests.release.xcconfig"; path = "Target Support Files/Pods-CIServiceBenchmarkTests/Pods-CIServiceBenchmarkTests.release.xcconfig"; sourceTree = "<group>"; };
+		8914E3806A8FB8627B843588 /* Pods-CIServiceBenchmark.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CIServiceBenchmark.release.xcconfig"; path = "Target Support Files/Pods-CIServiceBenchmark/Pods-CIServiceBenchmark.release.xcconfig"; sourceTree = "<group>"; };
+		9781FF24D42CF9CC62A48171 /* Pods_CIServiceBenchmark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CIServiceBenchmark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B450A31A71561F37CC81724 /* Pods_CIServiceBenchmarkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CIServiceBenchmarkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		167D19642248FCB4004130C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACE7D0018124FF50D61348F /* Pods_CIServiceBenchmarkTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16D8D360223FF57F009C219C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				414FFA6ACEB7C47EF43E1676 /* Pods_CIServiceBenchmark.framework in Frameworks */,
+				650DEB7BDC3B3DCDDCC4458B /* Pods_CIServiceBenchmark.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16977DE52248FD8800F16BED /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16977DE82248FD8800F16BED /* Assets */,
+				16977DE62248FD8800F16BED /* Sources */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		16977DE62248FD8800F16BED /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				16977DE72248FD8800F16BED /* AppTests.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		16977DE82248FD8800F16BED /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				16977DE92248FD8800F16BED /* Info.plist */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		16D8D35A223FF57F009C219C = {
 			isa = PBXGroup;
 			children = (
-				16D8D365223FF57F009C219C /* CIServiceBenchmark */,
+				16D8D365223FF57F009C219C /* Application */,
+				16977DE52248FD8800F16BED /* Tests */,
 				16D8D364223FF57F009C219C /* Products */,
 				56BFD968319C905B1B064196 /* Pods */,
-				79706081A8D56AB06555CD4B /* Frameworks */,
+				AE61E24CFA0DA14629D99F0A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,17 +106,18 @@
 			isa = PBXGroup;
 			children = (
 				16D8D363223FF57F009C219C /* CIServiceBenchmark.app */,
+				167D19672248FCB4004130C2 /* CIServiceBenchmarkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16D8D365223FF57F009C219C /* CIServiceBenchmark */ = {
+		16D8D365223FF57F009C219C /* Application */ = {
 			isa = PBXGroup;
 			children = (
 				16D8D379223FF59B009C219C /* Assets */,
 				16D8D378223FF595009C219C /* Sources */,
 			);
-			path = CIServiceBenchmark;
+			path = Application;
 			sourceTree = "<group>";
 		};
 		16D8D378223FF595009C219C /* Sources */ = {
@@ -79,9 +132,9 @@
 		16D8D379223FF59B009C219C /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				16D8D36F223FF580009C219C /* LaunchScreen.storyboard */,
 				16D8D36A223FF57F009C219C /* Main.storyboard */,
 				16D8D36D223FF580009C219C /* Assets.xcassets */,
-				16D8D36F223FF580009C219C /* LaunchScreen.storyboard */,
 				16D8D372223FF580009C219C /* Info.plist */,
 			);
 			path = Assets;
@@ -90,17 +143,19 @@
 		56BFD968319C905B1B064196 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A8971D4CAE0B159013E0BD82 /* Pods-CIServiceBenchmark.debug.xcconfig */,
-				610739EE5425C6BDCD3CDB3E /* Pods-CIServiceBenchmark.release.xcconfig */,
+				09D222C69550D49538F208DF /* Pods-CIServiceBenchmark.debug.xcconfig */,
+				8914E3806A8FB8627B843588 /* Pods-CIServiceBenchmark.release.xcconfig */,
+				5EF370571FAB8D74455F64D4 /* Pods-CIServiceBenchmarkTests.debug.xcconfig */,
+				61DE4FA1AB72298E60618A0F /* Pods-CIServiceBenchmarkTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		79706081A8D56AB06555CD4B /* Frameworks */ = {
+		AE61E24CFA0DA14629D99F0A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9A06BB58F224B04FC415F4AB /* Pods_CIServiceBenchmark.framework */,
+				9781FF24D42CF9CC62A48171 /* Pods_CIServiceBenchmark.framework */,
+				9B450A31A71561F37CC81724 /* Pods_CIServiceBenchmarkTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,15 +163,35 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		167D19662248FCB4004130C2 /* CIServiceBenchmarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167D19702248FCB4004130C2 /* Build configuration list for PBXNativeTarget "CIServiceBenchmarkTests" */;
+			buildPhases = (
+				701B500D4D61A7B7F15B1979 /* [CP] Check Pods Manifest.lock */,
+				167D19632248FCB4004130C2 /* Sources */,
+				167D19642248FCB4004130C2 /* Frameworks */,
+				167D19652248FCB4004130C2 /* Resources */,
+				D2FD0E3D6452F383DAAC4B96 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				167D196D2248FCB4004130C2 /* PBXTargetDependency */,
+			);
+			name = CIServiceBenchmarkTests;
+			productName = CIServiceBenchmarkTests;
+			productReference = 167D19672248FCB4004130C2 /* CIServiceBenchmarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		16D8D362223FF57F009C219C /* CIServiceBenchmark */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16D8D375223FF580009C219C /* Build configuration list for PBXNativeTarget "CIServiceBenchmark" */;
 			buildPhases = (
-				7B0CC9C7654CBC73B33BD897 /* [CP] Check Pods Manifest.lock */,
+				D9263880DF2AE90AE013D251 /* [CP] Check Pods Manifest.lock */,
 				16D8D35F223FF57F009C219C /* Sources */,
 				16D8D360223FF57F009C219C /* Frameworks */,
 				16D8D361223FF57F009C219C /* Resources */,
-				766AF99AFD6D386CB2F9627D /* [CP] Embed Pods Frameworks */,
+				00DD728A105CF27BE02B84B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,6 +212,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Tibor Bödecs";
 				TargetAttributes = {
+					167D19662248FCB4004130C2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 16D8D362223FF57F009C219C;
+					};
 					16D8D362223FF57F009C219C = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -156,11 +235,19 @@
 			projectRoot = "";
 			targets = (
 				16D8D362223FF57F009C219C /* CIServiceBenchmark */,
+				167D19662248FCB4004130C2 /* CIServiceBenchmarkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		167D19652248FCB4004130C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16D8D361223FF57F009C219C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,7 +261,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		766AF99AFD6D386CB2F9627D /* [CP] Embed Pods Frameworks */ = {
+		00DD728A105CF27BE02B84B7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -214,7 +301,69 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CIServiceBenchmark/Pods-CIServiceBenchmark-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7B0CC9C7654CBC73B33BD897 /* [CP] Check Pods Manifest.lock */ = {
+		701B500D4D61A7B7F15B1979 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CIServiceBenchmarkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FD0E3D6452F383DAAC4B96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CIServiceBenchmarkTests/Pods-CIServiceBenchmarkTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CIServiceBenchmarkTests/Pods-CIServiceBenchmarkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9263880DF2AE90AE013D251 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,6 +388,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		167D19632248FCB4004130C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16977DEA2248FD8800F16BED /* AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		16D8D35F223FF57F009C219C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,6 +406,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		167D196D2248FCB4004130C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16D8D362223FF57F009C219C /* CIServiceBenchmark */;
+			targetProxy = 167D196C2248FCB4004130C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		16D8D36A223FF57F009C219C /* Main.storyboard */ = {
@@ -270,6 +435,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		167D196E2248FCB4004130C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF370571FAB8D74455F64D4 /* Pods-CIServiceBenchmarkTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL2GSHMUDQ;
+				INFOPLIST_FILE = Tests/Assets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiborbodecs.CIServiceBenchmarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIServiceBenchmark.app/CIServiceBenchmark";
+			};
+			name = Debug;
+		};
+		167D196F2248FCB4004130C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DE4FA1AB72298E60618A0F /* Pods-CIServiceBenchmarkTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XL2GSHMUDQ;
+				INFOPLIST_FILE = Tests/Assets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiborbodecs.CIServiceBenchmarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIServiceBenchmark.app/CIServiceBenchmark";
+			};
+			name = Release;
+		};
 		16D8D373223FF580009C219C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -388,12 +595,12 @@
 		};
 		16D8D376223FF580009C219C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8971D4CAE0B159013E0BD82 /* Pods-CIServiceBenchmark.debug.xcconfig */;
+			baseConfigurationReference = 09D222C69550D49538F208DF /* Pods-CIServiceBenchmark.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XL2GSHMUDQ;
-				INFOPLIST_FILE = "$(SRCROOT)/CIServiceBenchmark/Assets/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Application/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,12 +614,12 @@
 		};
 		16D8D377223FF580009C219C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 610739EE5425C6BDCD3CDB3E /* Pods-CIServiceBenchmark.release.xcconfig */;
+			baseConfigurationReference = 8914E3806A8FB8627B843588 /* Pods-CIServiceBenchmark.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XL2GSHMUDQ;
-				INFOPLIST_FILE = "$(SRCROOT)/CIServiceBenchmark/Assets/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Application/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,6 +634,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		167D19702248FCB4004130C2 /* Build configuration list for PBXNativeTarget "CIServiceBenchmarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				167D196E2248FCB4004130C2 /* Debug */,
+				167D196F2248FCB4004130C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		16D8D35E223FF57F009C219C /* Build configuration list for PBXProject "CIServiceBenchmark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
