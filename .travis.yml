@@ -5,5 +5,5 @@ xcode_scheme: CIServiceBenchmark
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone XR
 podfile: Podfile
 before_install:
-  - gem install cocoapods --pre
+  - gem install cocoapods
   - pod install --repo-update
