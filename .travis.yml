@@ -1,5 +1,9 @@
-language: objective-c
+language: swift
 osx_image: xcode10.1
 xcode_workspace: CIServiceBenchmark.xcworkspace
 xcode_scheme: CIServiceBenchmark
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone XR
+podfile: Podfile
+before_install:
+  - gem install cocoapods --pre
+  - pod install --repo-update
