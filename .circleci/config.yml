@@ -21,8 +21,8 @@ jobs:
           name: Build and run tests
           command: fastlane scan
           environment:
-            SCAN_DEVICE: iPhone 6
-            SCAN_SCHEME: WebTests
+            SCAN_DEVICE: iPhone X
+            SCAN_SCHEME: CIServiceBenchmark.xcworkspace
 
       - store_test_results:
           path: test_output/report.xml
