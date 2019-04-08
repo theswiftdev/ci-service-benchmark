@@ -22,7 +22,7 @@ jobs:
           command: fastlane scan
           environment:
             SCAN_DEVICE: iPhone X
-            SCAN_SCHEME: CIServiceBenchmark.xcworkspace
+            SCAN_SCHEME: CIServiceBenchmark
 
       - store_test_results:
           path: test_output/report.xml
