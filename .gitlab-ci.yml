@@ -1,0 +1,12 @@
+stages:
+  - build
+
+build_project:
+  stage: build
+  script:
+    - pod install
+    - xcodebuild clean -project CIServiceBenchmark.xcworkspace -scheme CIServiceBenchmark | xcpretty
+    - xcodebuild test -project CIServiceBenchmark.xcworkspace -scheme CIServiceBenchmark -destination 'platform=iOS Simulator,name=iPhone Xʀ,OS=12.2' | xcpretty -s
+  tags:
+    - ios_12-2
+    - xcode_10-2
